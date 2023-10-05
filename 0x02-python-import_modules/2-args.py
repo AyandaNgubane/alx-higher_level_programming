@@ -11,4 +11,4 @@ if __name__ == "__main__":
         print(args, "argument:")
     for i in range(len(sys.argv)):
         if ( i != 0):
-            print(f"{i}: {sys.argv[i]}")
+            print("{:d}: {}".format(i, sys.argv[i]))
