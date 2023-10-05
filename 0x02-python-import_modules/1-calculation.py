@@ -10,7 +10,15 @@ e = mul(a, b)
 f = div(a, b)
 
 if __name__ == "__main__":
-    print(f"{a} + {b} = {c}")
-    print(f"{a} - {b} = {d}")
-    print(f"{a} * {b} = {e}")
-    print(f"{a} / {b} = {f}")
+    from calculator_1 import add, sub, mul, div
+
+    a = 10
+    b = 5
+    c = add(a, b)
+    d = sub(a, b)
+    e = mul(a, b)
+    f = div(a, b)
+    print("{:d} + {:d} = {:d}".format(a, b, c))
+    print("{:d} - {:d} = {:d}".format(a, b, d))
+    print("{:d} * {:d} = {:d}".format(a, b, e))
+    print("{:d} / {:d} = {:d}".format(a, b, f))
