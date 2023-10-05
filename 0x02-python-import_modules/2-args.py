@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-import sys
-
-args = len(sys.argv) - 1
-
 if __name__ == "__main__":
+    import sys
+
+    args = len(sys.argv) - 1
+
     if (len(sys.argv) > 2 or len(sys.argv) == 1):
         print(args, "arguments:")
     else:
