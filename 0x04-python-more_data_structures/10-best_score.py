@@ -6,4 +6,4 @@ def best_score(a_dictionary):
         for best in new:
             continue
         return best
-    return a_dictionary
+    return None
