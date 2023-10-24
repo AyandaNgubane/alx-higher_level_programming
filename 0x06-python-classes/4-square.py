@@ -16,7 +16,6 @@ class Square:
         self.size = size
 
     @property
-
     def size(self):
         """make size private
 
@@ -28,7 +27,6 @@ class Square:
         return self.__size
 
     @size.setter
-
     def size(self, value):
         """sets size
 
