@@ -19,7 +19,6 @@ class Rectangle:
             height - height
         """
 
-
         self.width = width
         self.height = height
 
@@ -31,6 +30,7 @@ class Rectangle:
 
         Returns: private width
         """
+
         return self.__width
 
     @width.setter
@@ -59,6 +59,7 @@ class Rectangle:
 
         Returns: private height
         """
+
         return self.__height
 
     @height.setter
