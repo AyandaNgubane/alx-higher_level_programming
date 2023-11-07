@@ -41,14 +41,12 @@ try:
 
         pieces = line.split()
 
-        try:
-            status = int(pieces[-2])
+        status = int(pieces[-2])
 
-            if str(status) in status_codes.keys():
+        if str(status) in status_codes.keys():
                 status_codes[str(status)] += 1
 
-        try:
-            file_size += int(pieces[-1])
+        file_size += int(pieces[-1])
 
         lc += 1
 
