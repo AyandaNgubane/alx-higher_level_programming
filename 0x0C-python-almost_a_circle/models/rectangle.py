@@ -203,7 +203,6 @@ class Rectangle(Base):
                 if k in modif_attrs:
                     setattr(self, k, v)
 
-
     def to_dictionary(self):
         """
         ...
