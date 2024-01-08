@@ -22,5 +22,5 @@ if (len > 3) {
 
   console.log(secBig);
 } else {
-  console.log(1);
+  console.log(0);
 }
