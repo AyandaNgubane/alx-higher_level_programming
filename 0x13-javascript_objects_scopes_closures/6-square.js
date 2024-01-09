@@ -10,7 +10,7 @@ module.exports = class Square extends oldSquare {
 
   charPrint (c) {
     if (c === undefined) {
-      super.print();
+      this.print();
     } else {
       for (let i = 0; i < this.size; i++) {
         for (let j = 0; j < this.size; j++) {
