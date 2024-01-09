@@ -14,7 +14,7 @@ module.exports = class Square extends oldSquare {
     } else {
       for (let i = 0; i < this.size; i++) {
         for (let j = 0; j < this.size; j++) {
-          process.stdout.write('c');
+          process.stdout.write(c);
         }
         console.log('');
       }
